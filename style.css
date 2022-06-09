@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: medium;
+}
+.box{
+    position: absolute;
+    box-sizing: border-box;
+    top: 35%;
+    left: 35%;
+    height: 150px;
+    background-color: aquamarine;
+}  
+#pop{
+    padding: 15px;
+}
+img{
+    width: 64px;
+    height: 45px;
+    animation: down 5sec linear;
+} 
+
+h1{
+    margin: 10px;     
+}
+p{  font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#pop button{
+    position: absolute;
+    left: 54%;
+     top: 74%;
+    padding: 4px;
+    font-size: 18px;
+     outline: 0;
+    margin: 0;
+}
+#pop input{
+    position: absolute;
+    top: 74%;
+    height: 27px;
+    margin: 0;
+}
+@keyframes down{
+    0%{
+        transform: translateY(200px);
+    }
+    50%{
+        transform: translateY(500px);
+    }
+    100%{
+        transform: translateY(700px);
+    }
+}
